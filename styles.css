@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .home, .login, .signup {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .search-section input, .search-section button {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .explore .location-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .explore .card {
+    width: 22%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .auth-links a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .auth-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .offers, .explore {
+    margin-top: 50px;
+  }
+  
+  .offers p {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
